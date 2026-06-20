@@ -245,7 +245,7 @@ section {
 }
 
 .catalog-item:hover { background: #111; }
-
+a.catalog-item { display: flex; }
 .catalog-item-thumb {
   width: 100%;
   aspect-ratio: 1;
