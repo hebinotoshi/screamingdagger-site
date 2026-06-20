@@ -116,7 +116,7 @@ nav {
 }
 
 .hero-center img {
-  max-width: min(400px, 50vw);
+  max-width: min(250px, 50vw);
   width: 100%;
   height: auto;
   opacity: 0.95;
