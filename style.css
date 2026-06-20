@@ -245,7 +245,9 @@ section {
 }
 
 .catalog-item:hover { background: #111; }
+
 a.catalog-item { display: flex; }
+
 .catalog-item-thumb {
   width: 100%;
   aspect-ratio: 1;
@@ -259,6 +261,20 @@ a.catalog-item { display: flex; }
   overflow: hidden;
 }
 
+.catalog-description {
+  background: var(--bg);
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 13px;
+  line-height: 1.85;
+  color: var(--fg-muted);
+}
+
+.catalog-description p + p {
+  margin-top: 1rem;
+}
 .catalog-item-thumb::before {
   content: '▲';
   font-size: 2rem;
